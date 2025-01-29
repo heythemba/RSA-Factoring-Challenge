@@ -1,17 +1,45 @@
-s many numbers as possible into a product of two smaller numbers.
+# RSA Factoring Challenge
 
-Usage: factors <file>
-where <file> is a file containing natural numbers to factor.
-One number per line
-You can assume that all lines will be valid natural numbers greater than 1
-You can assume that there will be no empy line, and no space before and after the valid number
-The file will always end with a new line
-Output format: n=p*q
-one factorization per line
-p and q don’t have to be prime numbers
-See example
-You can work on the numbers of the file in the order of your choice
-Your program should run without any dependency: You will not be able to install anything on the machine we will run your program on
-Time limit: Your program will be killed after 5 seconds if it hasn’t finish
-Push all your scripts, source code, etc… to your repository
-we will only run your executable factors
+## Introduction
+
+Welcome to the **RSA Factoring Challenge**! This project is a cryptographic challenge that involves factorizing large numbers to determine their prime components. The challenge is based on the principles of **RSA encryption**, which relies on the difficulty of prime factorization for security.
+
+## Objective
+
+Your mission, should you choose to accept it, is to develop a program that factorizes numbers as quickly as possible. The goal is to break down numbers into a product of two smaller numbers or, in the case of the RSA challenge, two prime numbers.
+
+This project is optional and designed to push your understanding of number theory and computational efficiency.
+
+## Requirements
+
+### General
+
+- You can use any programming language of your choice.
+- The operating system is **Ubuntu 20.04 LTS**.
+- The program must run **without any dependencies**, meaning you cannot install additional packages.
+- Execution time is limited to **5 seconds** per run.
+- The repository should include all source code and scripts needed to run the program.
+
+## How to Run
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/YOUR_GITHUB_USERNAME/RSA-Factoring-Challenge.git
+   cd RSA-Factoring-Challenge
+   ```
+2. Compile the source code (if necessary).
+3. Run the programs with a test file:
+   ```sh
+   ./factors tests/test00
+   ./rsa tests/rsa-1
+   ```
+
+## Author
+
+- **Haythem Baganna**
+
+
+
+## License
+
+This project is open-source and available under the **MIT License**.
